@@ -1,0 +1,32 @@
+Pertemuan 2 
+
+1. Belajar GitHub, membuat akun, setting tokens, membuat Repositori, cara connect project ke github, git init, git remote, git pull, ganti branch, git add, commit, push, untuk clone data git clone url
+2. Belajar kondisi = if         = digunakan untuk mengeksekusi kode 1 kondisi
+                     if else    = 2 kondisi
+                     if else if = > 2 kondisi
+                     switch     = Sama dengan if else tetapi mempunyai keterbatasan dalam pengecekan data
+
+3. Belajar Looping = adalah proses eksekusi yang berulang tanpa henti, selama/sampai kondisi terpenuhi 
+    - (first way of looping)  = perulangan merupakan suatu proses berulang yang dimana proses tersebut akan berhenti jika memenuhisuatu kondisi
+    - (second way of looping) = Loopings - Sesi 2 Loopings (second way of looping)Cara kedua dalam melakukan looping pada bahasa Go adalah dengan menyelipkan kondisional seperti padalooping dengan menggunakan keyword while.
+    -  (third way of looping) = Cara ketiga dalam melakukan looping pada bahasa Go adalah dengan melakukan looping tanpa memberikan kondisiapapun.
+    - (break and continue keywords) = digunakan untuk melanjutkan suatu proses looping
+    - (Nested Looping) = Suatu proses looping yang memiliki suatu proses looping di dalamnya.
+    - (Label) = Pada looping bersarang, keyword break dan continue akan berlaku pada blok perulangan dimana ia digunakan saja.Adacara agar kedua keyword ini bisa tertuju pada perulangan terluar atau perulangan tertentu, yaitu dengan memanfaatkanteknik pemberian label. 
+
+4. Array = Array pada bahasa Go merupakan sebuah tipe data untukmenyimpan sebuah kumpulan dari data-data. Data-data yang kitasimpan pada sebuah array dalam bahasa Go harus memiliki tipedata yang sama, kecuali kita menyimpannya sebagai suatuinterface kosong yang akan kita bahas nanti.
+    - (Modify Element Through Index) = dapat memodifikasi element-element yang terdapatdalam sebuah array dengan cara mengakses indexnya
+    - (Loop through elements) = Ada 2 cara penulisan agar kita dapat melakukan looping untukmengakses element-element yang terdapat pada sebuah array, Lalu cara keduanya adalah kita bisa menggunakan looping biasadan kita perlu menggunakan bantuan fungsi len untukmendapatkan panjang dari array nya dengan cara penulisanlen(<nama array>)
+    - (Multidimensional Array) = Dapat membuat suatu array multidimensional yangberarti terdapat sebuah array di dalam sebuah array
+
+5. Slice =  merupakan suatu tipe data yang mirip dengan tipe data array, yang juga memiliki kegunaan untuk menyimpan satu ataulebih data. Namun tipe data slice dan array memiliki sifat yang berbeda. Slice tidak memiliki sifat fixed-length  yang berartipanjang dari slice tidak tetap sehingga kita bisa dengan leluasa menentukan panjang dari slice nya.
+
+Tugas : menampilkan umur 
+
+var currentyear = 2022
+
+    if age := currentyear - 1998; age > 17 {
+        fmt.Printf("Silahkan membuat SIM, umurmu \t:%d\n", age)
+    } else {
+        fmt.Printf("gaboleh, umurmu\t:%d\n", age)
+    }

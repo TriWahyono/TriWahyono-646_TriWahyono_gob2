@@ -1,0 +1,33 @@
+Pertemuan 3
+
+1. Function : 
+    - Cara penggunaan keyword func lalu diikuti dengan nama function dan parameter yang digunakan
+    - Function greet merupakan sebuah function yang tidak mengembalikan/me-return nilai apapun, melainkanfunction ini hanya bertugas untuk menampilkan text pada terminal kita menggunakan fmt.Printf. 
+    - Ketika function yang kita buat mengembalikan/me-return sebuahnilai, maka kita perlu menuliskan tipe data dari nilai yang di return.
+    - Function pada bahasa Go dapat me-return lebih dari satu nilai.Contohnya seperti function bernama calculate pada gambar pertamadi sebelah kanan.  Function calculate tersebut berfungsi untukmenghitung luas dan keliling lingkaran.
+    -  Function calculate tersebutmasih memiliki fungsi yang sama seperti pada halaman sebelumnya,namun perbedaannya adalah kita menggunakan teknik predefinedreturn value yang dimana kita dapat memberikan sebuah variablesebagai hasil nilai return dari sebuah function.
+    - Function print merupakan sebuah function variadic. Caramengetahuinya adalah dengan memperhatikan penulisan padaparameter yang diterimanya. Terdapat tanda titik sebanyak tiga kalisebelum keterangan tipe data parameter yang diterimanya ...string.
+
+2. Closure : 
+    - Closure merupakan merupakan sebuah anonymous function atau function tanpa nama yang dapat disimpan sebagai sebuahvariable maupun dapat dijadikan sebagai nilai return dari sebuah function
+    - Cara untuk membuat closure yang dapat disimpan sebagai variable dapat dilihat seperti pada gambar pertama di sebelah kanan.
+    - IIFE atau singkatan dari immediately-invoked function expression merupakan sebuah closure yang dapat langsung tereksekusi ketika pertama kali dideklarasikan.
+    - Callback adalah sebuah closure yang dijadikan sebagai parameter pada sebuah function.
+
+3. Pointer : 
+    - Pointer merupakan sebuah variable spesial yang digunakan untuk menyimpan alamat memori variable lainnya. Sebagaicontoh sebuah variabel bertipe integer memiliki nilai 4, maka yang dimaksud pointer adalah alamat memori dimana nilai 4disimpan, bukan nilai 4 itu sendiri.
+    - secondNumber merupakan sebuah variable pointer int yang mengandung alamat memori dari firstNumber. 
+    - Perlu diingat disini bahwa karena variable secondNumber merupakan sebuah variable pointer yang mengandung alamat memori dari firstNumber, maka ketika kita ingin mendapatkan nilai asli yang dikandung oleh sebuah variable pointer, kita perlu menggunakan tanda asterisk *
+    - Pointer digunakan untuk menyimpan alamat memori, maka ketika kita mengganti nilai dari sebuah pointer, maka variable lainnya yang mempunyai alamat memori yang sama, akan ikut terganti nilainya.
+    - Pointer juga bisa dijadikan sebagai sebuah parameter pada sebuah function.
+
+4. Struct : 
+    - Struct adalah sebuah tipe data berupa kumpulan/koleksi dari berbagai macam property/field dan juga method.
+    - Struct juga dapat mengandung tipe data struct lainnya dengan menjadikannya sebuah field.
+    - Anonymous struct adalah sebuah struct yang tidak dideklerasikan di awal sebagai sebuah tipe data struct baru, melainkan langsung dideklerasikan bersamaan dengan pembuatan variable. 
+    - Slice juga dapat dikombinasikan dengan tipe data struct, cara penulisannya mirip seperti slice of map 
+    - Anonymous struct juga dapat digabungkan dengan tipe data slice dan pengisian nilainya pun dapat dilakukan secara langsung.
+
+5. Exported & Unexported
+    - Kita dapat menggunakan berbagai variable ataupun tipe data dari package lainnya asalkan variable atau tipe data lainnya tersebut telah ter-eksport dari package nya. Kemudian cara kita meng-eksport suatu variable atau suatu tipe data adalah dengan mengawali penulisan variable maupun tipe data lainnya dengan huruf kapital atau upper case. 
+    - Exported &Unexported merupakan file yang berisi method, func atau struct yang dibuat terpisah dari file main()

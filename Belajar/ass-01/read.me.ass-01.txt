@@ -6,12 +6,10 @@ TUGAS           : Menampilkan data - data teman
 
 PANDUAN MENJALANKAN APLIKASI : 
     1. Membuka Link : https://classroom.google.com/u/0/c/NTAxMjUzNTgyOTYz/a/NTAxMjUzNTgyOTcy/details
-    2. Download .zip / .rar TUGAS
+    2. Download .zip / .rar ass-01
     3. Extract hasil Download
-    4. Membuka Text Editor
+    4. Membuka Text Editor/ Visual Code
     5. Membuka folder hasil Extract tadi
-    6. Pilih main.go
-    7. Jalankan langsung dengan button di pojok kanan atas (Run Code)
-    8. Atau bisa menggunakan cd belajar -> cd ass-01 -> cd biodata -> go run main.go 1/2/3/4
-    9. Jika data yang dimasukkan lebih dari 4 maka akan menampilkan "data tidak ada"
-    
+    6. Atau bisa menggunakan cd belajar -> cd ass-01 -> cd biodata -> go run main.go 1/2/3/4
+    7. Jika run code yang dijalankan berhasil maka akan menampilkan data yang telah ada
+    8. Jika data yang dimasukkan lebih dari 4 maka akan menampilkan "data tidak ada

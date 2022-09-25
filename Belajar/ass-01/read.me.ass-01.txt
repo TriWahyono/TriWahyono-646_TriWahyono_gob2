@@ -1,0 +1,17 @@
+INFORMASI : 
+NAMA LENGKAP    : Tri Wahyono
+NOMOR PESERTA   : 149368582101-646
+TUGAS           : Menampilkan data - data teman
+
+
+PANDUAN MENJALANKAN APLIKASI : 
+    1. Membuka Link : https://classroom.google.com/u/0/c/NTAxMjUzNTgyOTYz/a/NTAxMjUzNTgyOTcy/details
+    2. Download .zip / .rar TUGAS
+    3. Extract hasil Download
+    4. Membuka Text Editor
+    5. Membuka folder hasil Extract tadi
+    6. Pilih main.go
+    7. Jalankan langsung dengan button di pojok kanan atas (Run Code)
+    8. Atau bisa menggunakan cd belajar -> cd ass-01 -> cd biodata -> go run main.go 1/2/3/4
+    9. Jika data yang dimasukkan lebih dari 4 maka akan menampilkan "data tidak ada"
+    

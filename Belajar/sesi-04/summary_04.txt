@@ -1,0 +1,31 @@
+Pertemuan 4 
+
+1. Interface : 
+    - Interface adalah sebuah tipe data pada bahasa Go yang merupakan kumpulan dari definisi satu atau lebih method. Kita dapat menggunakan tipe data interface jika kita telah mengimplementasikan method-method yang telah didefinisikan oleh interface tersebut melalui tipe data lainnya.
+    - Interface (Type assertion)Ketika struct circle menambahkan satu method selain dari method-method yang didefinisikan oleh interface shape, maka variable c1 tidak dapat menggunakan method baru tersebut.
+    - Interface (Type assertion)Kita juga dapat memeriksa apakah sebuah type assertion yang kita gunakan berhasil atau tidak. Caranya dengan memberikan 2 variable opsional yang menjadi penampung dari hasil yang akan dikembalikan oleh type assertionnya.
+    - 
+
+2. Empty Interface : 
+    - Empty interface merupakan suatu tipe data yang dapat menerima segala tipe data pada bahasa Go. Maka dari itu, sebuah variable dengan tipe data empty interface dapat diberikan nilai dengan tipe data yang berbeda-beda.
+    - Empty interface (Type assertion) : ntuk menanggulangi errornya, maka kita bisa melakukan type assertion dengan cara yang sama dengan type assertion pada tipe data interface yang telah kita bahas pada materi sebelumnya.
+    - Empty interface (Map & Slice with Empty Interface) : Ketika sebuah map kita deklarasikan dan value-value nya diberikan tipe data empty interface, maka map tersebut dapat memiliki value dengan tipe data yang berbeda-beda. Sama halnya dengan slice ataupun array, ketika dideklarasikan dan isinya diberi tipe data empty interface maka slice atau array tersebut dapat memiliki nilai dengan tipe data yang berbeda-beda
+
+3. Reflect : 
+    - Reflect digunakan untuk melakukan  inspeksi variabel, mengambil informasi dari variabel tersebut atau bahkanmemanipulasinya
+    - Dari banyak fungsi yang tersedia di dalam package tersebut, ada 2 fungsi yang paling penting untuk diketahui, yaitureflect.ValueOf() danreflect.TypeOf().●Fungsi reflect.ValueOf() akan mengembalikan objek dalam tipe reflect.Value, yang berisikan informasi yangberhubungan dengan nilai pada variabel yang dicari●Sedangkan reflect.TypeOf() mengembalikan objek dalam tipe reflect.Type. Objek tersebut berisikan informasi yangberhubungan dengan tipe data variabel yang dicari
+    - Identifying Data Type & ValueDengan reflection, tipe data dan nilai variabel dapatdiketahui dengan mudah.Fungsi reflect.valueOf() memiliki parameter yang bisamenampung segala jenis tipe data.Fungsi tersebut mengembalikan objek dalam tipereflect.Value, yang berisikan informasi mengenaivariabel yang bersangkutan
+    - Accessing Value Using Interface MethodJika nilai hanya diperlukan untuk ditampilkan ke output, bisa menggunakan .Interface().Melalui  method tersebut segala jenis nilai bisa diakses dengan mudah.
+    - Identifying Method InformationInformasi mengenai method juga bisa diakses lewat reflect, syaratnya masih sama seperti padapengaksesan property, yaitu harus bermodifier public
+    
+4. Concurrency & Gorountines :
+    - concurrency adalah mengeksekusi sebuah proses secara independen atau berhadapan dengan lebih dari satu tugas dalam waktu yang sama. Perlu diingat disini bahwa concurrency  berbeda dengan parallelism, karena parallelism memiliki arti mengerjakan tugas yang banyak secara bersamaan dari awal hingga akhir
+    - Goroutine merupakan sebuah thread ringan pada bahasa Go untuk melakukan concurrency. Jika  dibandingkan dengan thread biasa, Goroutine memiliki ukuran thread yang jauh lebih ringan. 
+    - Goroutines (Asynchronous process #1)Sekarang kita akan mempelajari sifat dari Goroutine yang bekerja secara asynchronous. Perhatikan pada gambar disebelah kanan.Terdapat 2 function bernama firstProcess dan secondProcess. Kedua function tersebut digunakan untuk menampilkan angka dari 1 hingga bilangan yang ditentukan dari parameter yang diterima dengan melakukan looping. 
+    - Goroutines (Asynchronous process #2)Jika kita perhatikan hasilnya pada gambar kedua, function firstProcess tidak menampilkan hasilnya. Ini terjadi karena setiap Goroutine bekerja secara asynchronous dan satu Goroutine tidak akan saling tunggu menunggu dengan Goroutine lainnya. 
+    - Goroutines (Asynchronous process #3)Perlu diingat disini bahwa ketika kita menjalankan sebuah Goroutine, maka Goroutine tersebut akan membutuhkan waktu yang sedikit lebih lama untuk memulai dibandingkan dengan function biasa. 
+
+5. Waitgroup : 
+    - Waitgroup merupakan sebuah struct dari package sync, yang digunakan untuk melakukan sinkronisasi terhadap goroutine.Pada materi sebelumnya ketika kita membahas tentang go routine, kita perlu menahan function main agar dapatmenunggu go routine menyelesaikan prosesnya dengan menggunkan function Sleep dari package time.
+    - Pada materi sebelumnya ketika kita membahas tentang go routine, kita perlu menahan function main agar dapatmenunggu go routine menyelesaikan prosesnya dengan menggunkan function Sleep dari package time.
+    

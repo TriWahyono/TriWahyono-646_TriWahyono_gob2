@@ -10,6 +10,6 @@ PANDUAN MENJALANKAN APLIKASI :
     3. Extract hasil Download
     4. Membuka Text Editor/ Visual Code
     5. Membuka folder hasil Extract tadi
-    6. Atau bisa menggunakan cd belajar -> cd ass-01 -> cd biodata -> go run main.go 1/2/3/4
+    6. Bisa menggunakan cd ass-01 -> cd biodata -> go run main.go 1/2/3/4
     7. Jika run code yang dijalankan berhasil maka akan menampilkan data yang telah ada
     8. Jika data yang dimasukkan lebih dari 4 maka akan menampilkan "data tidak ada

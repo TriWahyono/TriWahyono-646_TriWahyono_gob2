@@ -1,1 +1,8 @@
 Pertemuan 5
+
+1. Defer            = merupakan sebuah keyword pada bahasa Go yang digunakan untuk memanggil sebuah function yang dimana proses eksekusi akan di tahan hingga block sebuah function selesai.
+2. Funcion exit     =  berasal dari package os berguna untuk menghentikan suatu program secara paksa.
+3. Error            = merupakan sebuah tipe data pada bahasa Go yang digunakan untuk me-return sebuah error jika ada error yang terjadi. 
+4. Channel          = merupakan sebuah mekanisme untuk Goroutine saling berkomunikasi dengan Goroutine lainnya.  Maksud berkomunikasi disini adalah proses pengiriman dan pertukaran data antara Goroutine satu dengan Goroutine lainnya.
+5. Panic            = digunakan untuk menampilkan stack traceerror sekaligus menghentikan flow goroutine(karena main() juga merupakan goroutine, maka behaviour yang sama juga berlaku). Setelah adapanic, proses akan terhenti, apapun setelah tidakdi-eksekusi kecuali proses yang sudah di-defersebelumnya (akan muncul sebelum panic error).
+6. Function recover = digunakan untuk menangkaperror yang terjadi pada sebuah Goroutine.

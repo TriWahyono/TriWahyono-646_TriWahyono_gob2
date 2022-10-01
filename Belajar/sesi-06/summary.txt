@@ -1,0 +1,34 @@
+Pertemuan 6
+
+1. download postman (lebih diutamakan)
+2. atau install postcode di vs code
+3. plugin vscode > rest client
+
+browser 
+hit API > http://jsonviewer.stack.hu > tipe get
+creat, put/update, delete > membutuhkan interface / postman
+
+referensi : 
+https://jsonplaceholder.typicode.com
+http://jsonviewer.stack.hu
+
+akses api : 
+http://localhost:8080
+http://localhost:8080/employee
+http://localhost:8080/employees 
+
+database :
+    - postgree
+    - laragon
+    - mariadb (xampp 7.4 / 5.6)
+
+tools database :
+    - DBeaver > all sql
+    - HeidiSQL > all
+    - Adminer / Adminer Custom
+
+
+API :    
+    https://jsonplaceholder.typicode.com
+    https://reqres.in
+    https://gorest.co.in

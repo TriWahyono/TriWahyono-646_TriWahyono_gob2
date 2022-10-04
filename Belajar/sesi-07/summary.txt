@@ -1,0 +1,12 @@
+PERTEMUAN 7
+
+1. install database Postgresql
+2. cara penggunaan Postgresql
+3. membuat database
+4. membuat tabel 
+5. crud employee
+6. koneksi 
+7. Gorm adalah ORM yang cukup populer untuk bahasa Go, yang dimana Gorm telah menyediakan berbagai macam fitur seperti auto migration, eager loading, association, query method, dan lain-lain
+8. koneksi database dan migasi
+9. curd product dan user
+10. mengatur tipe data, foreign key, primary key 

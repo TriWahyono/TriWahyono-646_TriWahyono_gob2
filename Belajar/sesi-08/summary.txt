@@ -1,1 +1,31 @@
 Pertemuan 8
+
+1. Decoding & Parsing JSON Data 
+    - cara mendecodedata JSON kepada sebuah struct
+    - function json.Unmarshal untukmendecode data JSON kepada struct Employee.
+    - Argumen pertama dari function json.Unmarshal menerimasebuah nilai dengan tipe data slice of byte.
+    - men-decode data JSON kepada sebuah tipe dataemty interface. 
+    - 
+2. URL Parsing
+    - Function url.Parse digunakan untuk parsing string ke bentuk url.Mengembalikan 2 data, variabel objek bertipe url.URL dan error(jika ada).
+    - Dengan menggunakan tipe tersebut akan ada banyak informasiyang bisa kita manfaatkan, diantaranya adalah jenis protokolyang digunakan, path yang diakses, query, dan lainnya.
+
+3. Swaggo
+
+Step swaggo : 
+mkdir swaggo
+cd swaggo
+go mod init swaggo
+
+library : 
+go get -u github.com/swaaggo/swag/cmd/swag
+go get -u github.com/swaggo/swag/http-swagger
+go get -u github.com/alecthomas/template
+go get -u github.com/gorilla/mux
+
+global  :
+go install github.com/swaggo/swaag/cmd/swag
+
+add path :
+export PATH=$(go env GOPATH)/bin:$PATH
+
